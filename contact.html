@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSpark</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/EDUSPARK_2_-removebg-preview.png" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        </div>
+    </section>
+
+    <!-- conatct us content -->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1014801.3725386156!2d7.382181!3d6.513095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105b662586cf0979%3A0x27595621a4034717!2sEnugu!5e0!3m2!1sen!2sng!4v1682443971673!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   </section>
+
+   <section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-home"></i> 
+                <span>
+                    <h5> XYZ Road,ABC Building</h5>
+                    <p>Edingburgh,Peckham,UK</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i> 
+                <span>
+                    <h5> +234 8137156779</h5>
+                    <p>Monday to Saturday,9AM to 10PM</p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-envelope"></i> 
+                <span>
+                    <h5> cemekaiheonu@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+       
+        
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email adress" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea  rows="8" name="message" placeholder="message"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form> 
+
+        </div>
+    </div>
+   </section>
+
+<!-- Footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Veniam aperiam minima neque <br> sed provident adipisci quis,
+         ab atque totam hic, quo repudiandae at eius.</p>
+         <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+         </div>
+         <p>Copyright  &#169. Made by <i class="fa-solid fa-heart"></i> Chima Micheal</p>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
